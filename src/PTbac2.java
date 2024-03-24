@@ -19,7 +19,11 @@ public class PTbac2 {
 
         if(a==0){
             if(b==0){
-                System.out.println("PT vo nghiem !");
+                if(c==0){
+                    System.out.println("PT so co so nghiem !");
+                }else{
+                    System.out.println("PT cvo nghiem !");
+                }
             }else{
                 System.out.println("Pt co 1 nghiem x=" + (-c/b));
             }
